@@ -4,7 +4,7 @@ import React from 'react'
 export default function NavBar() {
   return (
     <nav>
-      <ul className="flex flex-row gap-8 bg-slate-600 text-white">
+      <ul className="flex flex-row gap-8 justify-end p-5 bg-slate-600 text-white">
         <li>
           <Link href="/">Home</Link>
         </li>
